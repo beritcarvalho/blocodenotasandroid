@@ -6,19 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_notas"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floating_action_button"
+        android:id="@+id/fab_novaNota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
         android:contentDescription="@string/adicionarNota"
+        android:onClick="fabNovaNotaClick"
         app:backgroundTint="#E91E63"
         app:srcCompat="@drawable/add" />
 

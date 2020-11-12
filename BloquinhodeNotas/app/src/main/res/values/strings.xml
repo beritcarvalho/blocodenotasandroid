@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Bloquinho de Notas</string>
     <string name="adicionarNota">Adicionar Nota</string>
+    <string name="tituloNota">Titulo</string>
+    <string name="textoNota">Descrição</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="dataCriacao">Data de Criação: </string>
+    <string name="excluir">Deseja excluir esta nota?</string>
+
 </resources>
